@@ -1,0 +1,22 @@
+{
+  "name": "drf-redux-auth-demo",
+  "version": "0.1.0",
+  "description": "demo for drf-redux-auth",
+  "author": {
+    "name": "Benjamin W Stookey",
+    "url": "https://github.com/jamstooks/"
+  },
+  "engines": {
+    "node": "10.2.1",
+    "npm": "6.1.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "drf-redux-auth"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "npm install --only=dev --prefix react-demo && npm install --prefix react-demo && npm run build --prefix react-demo"
+  }
+}

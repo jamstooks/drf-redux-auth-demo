@@ -1,0 +1,12 @@
+.lock-icon {
+    margin-left: 1em;
+}
+
+.progress {
+    margin: 2em;
+}
+
+.error {
+    background-color: pink;
+    margin: 3px;
+}
