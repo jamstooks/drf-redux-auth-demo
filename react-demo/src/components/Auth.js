@@ -131,6 +131,10 @@ class Auth extends React.Component {
       authAction = "";
     }
 
+    let subtitle = this.props.auth.isAuthenticated
+      ? "Woot woot! You're logged in!"
+      : "Hint: reactuser:reactpass";
+
     return (
       <Card className={classes.card}>
         <CardContent>
@@ -141,7 +145,7 @@ class Auth extends React.Component {
             <Icon className="lock-icon">lock</Icon>
           </Typography>
           <Typography className={classes.title} color="textSecondary">
-            Hint: reactuser:reactpass
+            {subtitle}
           </Typography>
           {authContent}
         </CardContent>
